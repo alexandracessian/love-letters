@@ -9,12 +9,12 @@
        Global / Reset / Accessibility
        ============================ */
     :root{
-      --pink:#FF6F91;
+      --blue:#003366 ;
       --muted:#6f6a6a;
-      --bg:#FFF7F9;
+      --bg:#003366 ;
       --card-shadow: 0 6px 16px rgba(255,111,145,0.18);
-      --restart-red: #ffb6b6; /* merah pastel */
-      --close-grey:  #d6d6d6; /* abu pastel */
+      --restart-red: #99ddff; /* biru muda */
+      --close-grey:  #ffffff; /* putih */
       --continue-green: #6ab26a;
     }
     * { box-sizing: border-box; }
@@ -328,7 +328,7 @@
     <div class="modal">
       <h2 id="modal2Title">You Win!</h2>
       <p id="modal2Desc">Here's your secret key for Level 2:</p>
-      <div class="modal-secret" id="secretKey2">KEY LEVEL 2 🍓</div>
+      <div class="modal-secret" id="secretKey2">KEY LEVEL 2 🌟🌟</div>
       <div style="display:flex; gap:10px; justify-content:center; align-items:center;">
         <button id="closeModal2" class="btn btn-close">Close</button>
         <button id="continueTo3" class="btn btn-continue" style="display:none;">Continue to Level 3</button>
@@ -562,7 +562,7 @@
       document.body.appendChild(liveRegion);
 
       // list of emoji items to spawn
-      const EMOJI_POOL = ['🧁','🧸','🍪','🌟','🍓'];
+      const EMOJI_POOL = ['🧁','🧸','💌','💝','🫠'];
 
       // spawn a new falling item element
       function spawnItem(){
@@ -751,9 +751,9 @@
     (function(){
       // palette mapping - explicit and readable
       const palette = [
-        { id: 'pink',   className: 'c-pink',   emoji: '🍓' }, // pastel pink -> 🍓
-        { id: 'green',  className: 'c-green',  emoji: '🍥' }, // pastel hijau -> 🍥
-        { id: 'blue',   className: 'c-blue',   emoji: '🍨' }, // pastel biru -> 🍨
+        { id: 'pink',   className: 'c-pink',   emoji: '💌' }, // pastel pink -> 💌
+        { id: 'green',  className: 'c-green',  emoji: '🫠' }, // pastel hijau -> 🫠
+        { id: 'blue',   className: 'c-blue',   emoji: '💝' }, // pastel biru -> 💝
         { id: 'purple', className: 'c-purple', emoji: '🍰' }, // pastel ungu -> 🍰
         { id: 'yellow', className: 'c-yellow', emoji: '🧸' }  // pastel kuning -> 🧸
       ];
@@ -1075,17 +1075,17 @@
 
       // cards data — 3 sets * 3 emoji each
       const cardsData = [
-        { id: 1, color: 'pink3', emoji: '🍓' },
-        { id: 2, color: 'pink3', emoji: '🍓' },
-        { id: 3, color: 'pink3', emoji: '🍓' },
+        { id: 1, color: 'pink3', emoji: '🍪' },
+        { id: 2, color: 'pink3', emoji: '🍪' },
+        { id: 3, color: 'pink3', emoji: '🍪' },
 
-        { id: 4, color: 'blue3', emoji: '🍨' },
-        { id: 5, color: 'blue3', emoji: '🍨' },
-        { id: 6, color: 'blue3', emoji: '🍨' },
+        { id: 4, color: 'blue3', emoji: '💌' },
+        { id: 5, color: 'blue3', emoji: '💌' },
+        { id: 6, color: 'blue3', emoji: '💌' },
 
-        { id: 7, color: 'green3', emoji: '🍥' },
-        { id: 8, color: 'green3', emoji: '🍥' },
-        { id: 9, color: 'green3', emoji: '🍥' }
+        { id: 7, color: 'green3', emoji: '🚀' },
+        { id: 8, color: 'green3', emoji: '🚀' },
+        { id: 9, color: 'green3', emoji: '🚀' }
       ];
 
       // DOM refs
@@ -1378,18 +1378,12 @@
 
       // typewriter letter content (English, from girl to boy)
       const LETTER_TEXT =
-`My dearest, mark!!
+`My dearest, erdaffa
 
-I promised you a small adventure, and here we are, at the end of it together. Watching you play through every silly challenge made my heart swell in ways I never knew possible.
+I Happy Valentine's dayy 🤩🫶🏻 selamaaat hari kaaasiiiihh sayaaang :P thank u for always choose me and also thank u for always loving me.. AKU BAHAAAGIIIIIAAAAA BANGETTT BISA KETEMUU KAMUUU 🥹 maaafinnn aku yaaa kalo aku suka marah marah ngga jelas, suka buat masalah waktu kamu capee. makasiii bangett kamu uda selalu support akuu, selalu ada kapaan pun aku butuh kamuuu, maafin aku yaa kalo aku masi belum bisa berbuat banyak kaya semua yang uda kamu lakuin buat aku.. Maafin aku juga kalo aku masi sering mood mood an 😔 💔 AKU NYADAR KOKKK kadang aku juga mikir kalo aku gajelas 👹 intinyaaa timakasii yaaahihi THANKYOU SOMACHHH 😗🤏🏻 XIEXIE 👻 kamuuu semangat yahh kerjaanyaaa BIAR BISA BELIIN AKU PABRIK CHEESECAKE AOWKOWKW #IZINNN 😛🙏🏻 KAMU SEHAT SEHAT TERUSS YAAA 🫵🏻 AKU SyAngG KAMU KOK CIUS...?2;:D}%$& (tapi sebagai teman dulu yaa 😅😅👆🏻) semogaaa kamu selalu di kelilingin orang orang baikkk 💁🏻‍♀️ AMINNNN 😍  BESOK BESOK BELANJAAIN AKU LEBIHBANYAK LAGI YA 🤪 #BercandaJanganSerius🙏🏻 lasttt but not leassssttt jangan cape yaa sama akuu 🥹 aku bakal berusaha buat NGGAK GAMPANG MARAH TIBA TIBA 🤡 JANJIIII ✌🏻✌🏻✌🏻
 
-You are my quiet sunrise and my loudest laugh. You are the person I want on my best days and my worst. I admire your kindness, your patience, and the way you try, even when things get tricky.
-
-This little game is only a silly map I made to lead you here, to this very moment. So I’ll say it plainly, I love you. I choose you, now and for all the days we are gifted.
-
-If this letter finds you smiling, then everything I planned worked.
-
-Always,
-— Your girl 🍓`;
+With love,
+— Cesa`;
 
       // reveal letter with typewriter, show scrollable box
       function revealLetter(){
@@ -1443,7 +1437,7 @@ Always,
       function spawnPetal(){
         const petal = document.createElement('div');
         petal.className = 'petal';
-        petal.textContent = '🌸';
+        petal.textContent = '💝';
         // random left 0..100vw
         const left = Math.random() * 100;
         petal.style.left = left + 'vw';
